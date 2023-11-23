@@ -30,6 +30,8 @@ The following section will present examples of gesture definitions.
 1. **Capture frames and convert to grayscale:**
    - Our Region of Interest (ROI) is the hand region, so we capture the image of the hand and convert them to grayscale.
    - Convert the color image to grayscale using `cv2.imread("image-name.png", 0)` or `cv2.IMREAD_GRAYSCALE`.
+     
+![Gesture Recognition](https://example.com/gesture-recognition.png)
 
 2. **Blur image:**
    - Apply Gaussian Blurring on the original image for smoothing and noise reduction.
